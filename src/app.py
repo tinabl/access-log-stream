@@ -30,7 +30,7 @@ import dash_ag_grid as dag    #pip install dash-ag-grid
 
 
 
-credentials = service_account.Credentials.from_service_account_file("C:/Users/tina/Desktop/deft-upgrade-380122-4b1870267d5a.json")
+credentials = service_account.Credentials.from_service_account_file("C:\Users\tina\PycharmProjects\DeployWithRender\deft-upgrade-380122-4b1870267d5a.json")
 project_id = 'deft-upgrade-380122'
 
 df_sql ="""SELECT IP_address, date_time, method_URL, resp_code FROM `deft-upgrade-380122.log_dataset.access_log`
