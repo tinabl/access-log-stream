@@ -29,7 +29,6 @@ if __name__ == '__main__':
             status = reader[e][4]
 
 
-
             producer.send('quickstart-events',
                           {'IP_address': ip, 'date_time': date_time, 'method_URL': url,
                            'resp_code': status})
