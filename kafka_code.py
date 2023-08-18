@@ -16,8 +16,6 @@ if __name__ == '__main__':
             str(randint(0, 255)) for _ in range(4))
 
 
-
-
     with open('log.csv') as file:
         producer = KafkaProducer(value_serializer=lambda m: json.dumps(m).encode('utf-8'))
         reader = list(csv.reader(file))
