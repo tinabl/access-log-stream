@@ -11,4 +11,6 @@ _
 
 
 
+
+
 Travelling of streaming data along the path above. First i created access-log data by manipulating a real batch dataset. Then created a virtual machine in a cluster of Google Cloud Compute Engine, and downloaded Kafka here. Kafka writes the data Kafka queue with created topic and reads it. Created Spark then, data went here and to Google Big Query. I created the statistics dashboard using with Dash of Plotly which has the data transferred from Big Query. I deployed the work using Render.
