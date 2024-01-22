@@ -9,8 +9,4 @@ https://canoe-thrust-windshield-el6a-7k2y.onrender.com
 
 _
 
-
-
-
-
-Travelling of streaming data along the path above. First i created access-log data by manipulating a real batch dataset. Then created a virtual machine in a cluster of Google Cloud Compute Engine, and downloaded Kafka here. Kafka writes the data Kafka queue with created topic and reads it. Created Spark then, data went here and to Google Big Query. I created the statistics dashboard using with Dash of Plotly which has the data transferred from Big Query. I deployed the work using Render.
+Travel of streaming data along the path above. I first created access-log data by manipulating a real batch dataset. Then created a virtual machine in the Google Cloud Compute Engine cluster and downloaded Kafka there. Kafka writes data Kafka queue with created topic and reads them, here it was used for this purpose. Dataproc easily provides a Spark cluster and that's what I used. Spark  read the streaming data, structured it accordingly and counted them. Then I created a table in Google BigQuery and imported the data into it. After all, I builded the analytics dashboard using Plotly Dash with data from BigQuery. I deployed the work using Render.
